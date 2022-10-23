@@ -4,8 +4,44 @@ body {
     margin: 0;
 }
 
+h1 {
+    color: #335576;
+}
+
+h2, h3 {
+    color: #335576;
+}
+.nav__guide--link, nav__guide--link:visited, nav__guide--link:link {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
 nav {
-    background-color: #ffffff;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-height: 90%;
+}
+
+nav h3 {
+    padding-left: 5%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 5%;
+}
+
+li {
+    padding-right: 15px;
+}
+
+.nav__guide__home {
+    border-bottom: #DB7A4E solid;
+    padding-bottom: 5px;
 }
 
 footer {
