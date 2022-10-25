@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <!-- nav -->
+    <!-- nav - styles in global.css-->
     <header>
         <nav>
             <h3>Travel Site</h3>
@@ -22,28 +22,37 @@
                 <li><a class="nav__guide--link nav__guide__greece" href="">Greece</a></li>
             </ul>
         </nav>
+        <!-- hero -->
         <div class="hero">
             <div class="hero__content">
                 <h1>Travelling Comes With Endless Discoveries</h1>
-                <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now</p>
-                <input type="button" value="Get started">
+                <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+                <input type="button" value="Get started" class="hero__button">
             </div>
             <div class="hero__img">
-                <img src="./assets/images/hero.png" alt="Travel Site Img">
+                <img src="./assets/images/hero.png" alt="Travel Site Img" class="hero__img--position">
             </div>
         </div>
     </header>
     <!-- recommendations -->
     <main>
         <h2>Recommendations</h2>
-        <div>
-            <a href="">Hawaii</a>
-        </div>
-        <div>
-            <a href="">Iceland</a>
-        </div>
-        <div>
-            <a href="">Greece</a>
+        <div class="recom">
+            <a href="./pages/hawaii.html" class="recom__hawaii">
+                <div>
+                    <h2>Hawaii</h2>
+                </div>
+            </a>
+            <a href="./pages/iceland.html" class="recom__iceland">
+                <div>
+                    <h2>Iceland</h2>
+                </div>
+            </a>
+            <a href="./pages/greece.html" class="recom__greece">
+                <div>
+                    <h2>Greece</h2>
+                </div>
+            </a>
         </div>
     </main>
     <!-- footer -->

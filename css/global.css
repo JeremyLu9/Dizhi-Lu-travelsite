@@ -21,11 +21,10 @@ nav {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    max-height: 90%;
 }
 
 nav h3 {
-    padding-left: 5%;
+    margin-left: 5%;
 }
 
 ul {

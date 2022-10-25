@@ -1,8 +1,113 @@
+/* hero */
 .hero {
     background-color: #fefaf5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero__content {
+    margin-left: 5%;
+    width: 40%;
 }
 
 .hero__content h1 {
-    margin-top: 0%;
+    margin: 0%;
 }
 
+.hero__content p {
+    font-size: small;
+    margin: 5% 0;
+    color: #335576;
+}
+
+.hero__img {
+    margin-right: 10%;
+    padding: 4% 0;
+}
+
+.hero__img--position {
+   height: 350px;
+}
+
+.hero__button {
+    background-color: #db7a4e;
+    border: #db7a4e;
+    color: #fefaf5;
+    border-radius: 30px;
+    padding: 6px 0;
+    width: 28%;
+    cursor: pointer;
+}
+/* Recommendations */
+
+main {
+    margin: 70px 0;
+}
+
+main h2 {
+    margin-left: 5%;
+}
+
+.recom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recom__hawaii, .recom__hawaii:visited, .recom__hawaii:link {
+    width: 23%;
+    height: 28rem;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/images/hawaii.jpg);
+    border: 1px solid rgba(0,0,0,0.20);
+    border-radius: 5px;
+    box-shadow:  0px 4px 4px rgba(0,0,0,0.20);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin-left: 7%;
+}
+.recom__iceland, .recom__iceland:visited, .recom__iceland:link {
+    width: 23%;
+    height: 28rem;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/images/iceland.jpg);
+    border: 1px solid rgba(0,0,0,0.20);
+    border-radius: 5px;
+    box-shadow:  0px 4px 4px rgba(0,0,0,0.20);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.recom__greece, .recom__greece:visited, .recom__greece:link {
+    width: 23%;
+    height: 28rem;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/images/greece.jpg);
+    border: 1px solid rgba(0,0,0,0.20);
+    border-radius: 5px;
+    box-shadow:  0px 4px 4px rgba(0,0,0,0.20);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin-right: 7%;
+}
+
+.recom h2 {
+    color: #fefaf5;
+    margin: 20px 20px;
+}
+
+.nav__guide--link, nav__guide--link:visited, nav__guide--link:link {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
