@@ -43,6 +43,46 @@ li {
     padding-bottom: 5px;
 }
 
+/* footer */
 footer {
     background-color: #fefaf5;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 40px 8%;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+footer h6 {
+    font-weight: 400;
+    color: #db7a4e;
+    margin-bottom: 0;
+}
+
+footer p {
+    color: #335576;
+    font-weight: 600;
+    font-size:small;
+}
+
+.footer__hour {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__hour__sat {
+    margin: auto 30px;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social img {
+    height: 30px;
+    margin: 40px 35px 0px 0px;
 }

@@ -48,6 +48,7 @@ main {
 
 main h2 {
     margin-left: 5%;
+    margin-bottom: 30px;
 }
 
 .recom {
@@ -55,27 +56,9 @@ main h2 {
     justify-content: space-evenly;
 }
 
-.recom__hawaii, .recom__hawaii:visited, .recom__hawaii:link {
+.recom__card {
     width: 23%;
     height: 28rem;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../assets/images/hawaii.jpg);
-    border: 1px solid rgba(0,0,0,0.20);
-    border-radius: 5px;
-    box-shadow:  0px 4px 4px rgba(0,0,0,0.20);
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    text-decoration: none;
-    margin-left: 7%;
-}
-.recom__iceland, .recom__iceland:visited, .recom__iceland:link {
-    width: 23%;
-    height: 28rem;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../assets/images/iceland.jpg);
     border: 1px solid rgba(0,0,0,0.20);
     border-radius: 5px;
     box-shadow:  0px 4px 4px rgba(0,0,0,0.20);
@@ -85,20 +68,24 @@ main h2 {
     text-decoration: none;
 }
 
-.recom__greece, .recom__greece:visited, .recom__greece:link {
-    width: 23%;
-    height: 28rem;
+.recom__card__hawaii, .recom__card__hawaii:visited, .recom__card__hawaii:link {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/images/hawaii.jpg);
+    margin-left: 8%;
+}
+.recom__card__iceland, .recom__card__iceland:visited, .recom__card__iceland:link {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/images/iceland.jpg);
+  
+}
+
+.recom__card__greece, .recom__card__greece:visited, .recom__card__greece:link {
     background-position: center;
     background-size: cover;
     background-image: url(../assets/images/greece.jpg);
-    border: 1px solid rgba(0,0,0,0.20);
-    border-radius: 5px;
-    box-shadow:  0px 4px 4px rgba(0,0,0,0.20);
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    text-decoration: none;
-    margin-right: 7%;
+    margin-right: 8%;
 }
 
 .recom h2 {
@@ -110,4 +97,46 @@ main h2 {
     text-decoration: none;
     color: black;
     font-size: large;
+}
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 40px 8%;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+footer h6 {
+    font-weight: 400;
+    color: #db7a4e;
+    margin-bottom: 0;
+}
+
+footer p {
+    color: #335576;
+    font-weight: 600;
+    font-size:small;
+}
+
+.footer__hour {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__hour__sat {
+    margin: auto 30px;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social img {
+    height: 30px;
+    margin: 40px 35px 0px 0px;
 }
