@@ -1,0 +1,84 @@
+.title {
+    color: #fff;
+    font-size: xx-large;
+    margin: 0 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 60px;
+}
+
+.hawaii__img {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/images/hawaii.jpg);
+    padding-bottom: 10%;
+    padding-top: -10%;
+}
+
+.iceland__img {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/images/iceland.jpg);
+    padding-bottom: 10%;
+    padding-top: -10%;
+}
+
+.greece__img {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/images/greece.jpg);
+    padding-bottom: 10%;
+    padding-top: -10%;
+}
+
+.schedule {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.schedule__list--bold {
+    border-bottom: black solid;
+    font-weight: bold;
+    color: black;
+    margin-top: 0;
+}
+
+.schedule__list {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.schedule__list li {
+    margin: 30px 0;
+    padding: 15px;
+    background-color: #FEFAF5;
+    font-size:larger;
+}
+
+.friday {
+    background-color: #FFFFFF;
+    width: 19%;
+    padding: 1.25rem;
+    border: white solid 2px;
+    border-radius: 5px
+}
+
+.saturday {
+    background-color: #FFFFFF;
+    width: 19%;
+    margin: 0 40px;
+    padding: 1.25rem;
+    border: white solid 2px;
+    border-radius: 5px
+}
+
+.sunday {
+    background-color: #FFFFFF;
+    width: 19%;
+    padding: 1.25rem;
+    border: white solid 2px;
+    border-radius: 5px
+}
+

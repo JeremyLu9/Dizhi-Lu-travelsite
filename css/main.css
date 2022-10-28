@@ -1,3 +1,8 @@
+/* nav */
+.nav__guide__home {
+    border-bottom: #DB7A4E solid;
+    padding-bottom: 5px;
+}
 /* hero */
 .hero {
     background-color: #fefaf5;
@@ -23,8 +28,8 @@
 }
 
 .hero__img {
-    margin-right: 10%;
-    padding: 4% 0;
+    margin-right: 7%;
+    padding: 7% 0 4% 0;
 }
 
 .hero__img--position {
@@ -68,20 +73,20 @@ main h2 {
     text-decoration: none;
 }
 
-.recom__card__hawaii, .recom__card__hawaii:visited, .recom__card__hawaii:link {
+.recom__card__hawaii{
     background-position: center;
     background-size: cover;
     background-image: url(../assets/images/hawaii.jpg);
     margin-left: 8%;
 }
-.recom__card__iceland, .recom__card__iceland:visited, .recom__card__iceland:link {
+.recom__card__iceland{
     background-position: center;
     background-size: cover;
     background-image: url(../assets/images/iceland.jpg);
   
 }
 
-.recom__card__greece, .recom__card__greece:visited, .recom__card__greece:link {
+.recom__card__greece{
     background-position: center;
     background-size: cover;
     background-image: url(../assets/images/greece.jpg);
@@ -93,11 +98,6 @@ main h2 {
     margin: 20px 20px;
 }
 
-.nav__guide--link, nav__guide--link:visited, nav__guide--link:link {
-    text-decoration: none;
-    color: black;
-    font-size: large;
-}
 /* footer */
 footer {
     display: flex;

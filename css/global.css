@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana;
+    font-family: verdana;
     font-weight: 400;
     margin: 0;
 }
@@ -11,37 +11,38 @@ h1 {
 h2, h3 {
     color: #335576;
 }
-.nav__guide--link, nav__guide--link:visited, nav__guide--link:link {
+.nav__guide--link {
     text-decoration: none;
     color: black;
-    font-size: large;
+    font-size: medium;
 }
 
 nav {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    background-color: #FFFFFF;
+    width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 nav h3 {
     margin-left: 5%;
 }
 
-ul {
+
+.nav__guide {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     padding-right: 5%;
 }
 
-li {
-    padding-right: 15px;
+.nav__guide--link {
+    margin-right: 15px;
 }
 
-.nav__guide__home {
-    border-bottom: #DB7A4E solid;
-    padding-bottom: 5px;
-}
 
 /* footer */
 footer {
