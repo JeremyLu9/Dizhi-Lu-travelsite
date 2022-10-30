@@ -7,28 +7,22 @@
     font-size: 60px;
 }
 
-.hawaii__img {
+.background {
     background-position: center;
     background-size: cover;
-    background-image: url(../assets/images/hawaii.jpg);
     padding-bottom: 10%;
-    padding-top: -10%;
+}
+
+.hawaii__img {
+    background-image: url(../assets/images/hawaii.jpg);
 }
 
 .iceland__img {
-    background-position: center;
-    background-size: cover;
     background-image: url(../assets/images/iceland.jpg);
-    padding-bottom: 10%;
-    padding-top: -10%;
 }
 
 .greece__img {
-    background-position: center;
-    background-size: cover;
     background-image: url(../assets/images/greece.jpg);
-    padding-bottom: 10%;
-    padding-top: -10%;
 }
 
 .schedule {
@@ -51,8 +45,8 @@
 
 
 .schedule__list li {
-    margin: 30px 0;
-    padding: 15px;
+    margin: 1.875rem 0;
+    padding: 0.938rem;
     background-color: #FEFAF5;
     font-size:larger;
 }

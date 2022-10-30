@@ -11,12 +11,6 @@ h1 {
 h2, h3 {
     color: #335576;
 }
-.nav__guide--link {
-    text-decoration: none;
-    color: black;
-    font-size: medium;
-}
-
 nav {
     display: flex;
     align-items: baseline;
@@ -31,7 +25,6 @@ nav h3 {
     margin-left: 5%;
 }
 
-
 .nav__guide {
     list-style-type: none;
     display: flex;
@@ -39,10 +32,17 @@ nav h3 {
     padding-right: 5%;
 }
 
-.nav__guide--link {
-    margin-right: 15px;
+.nav__guide--link:hover {
+    border-bottom: #DB7A4E 5px solid;
+    padding-bottom: 0.313rem;
 }
 
+.nav__guide--link {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    margin-right: 0.938rem;
+}
 
 /* footer */
 footer {

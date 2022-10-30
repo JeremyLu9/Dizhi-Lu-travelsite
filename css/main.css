@@ -1,8 +1,9 @@
 /* nav */
 .nav__guide__home {
-    border-bottom: #DB7A4E solid;
+    border-bottom: #DB7A4E 5px solid;
     padding-bottom: 5px;
 }
+
 /* hero */
 .hero {
     background-color: #fefaf5;
@@ -14,14 +15,14 @@
 
 .hero__content {
     margin-left: 5%;
-    width: 40%;
+    width: 43%;
 }
 
 .hero__content h1 {
     margin: 0%;
 }
 
-.hero__content p {
+.hero__content h6 {
     font-size: small;
     margin: 5% 0;
     color: #335576;
@@ -33,7 +34,7 @@
 }
 
 .hero__img--position {
-   height: 350px;
+   height: 21.875rem;
 }
 
 .hero__button {
@@ -41,19 +42,19 @@
     border: #db7a4e;
     color: #fefaf5;
     border-radius: 30px;
-    padding: 6px 0;
+    padding: 0.563rem 0;
     width: 28%;
     cursor: pointer;
 }
 /* Recommendations */
 
 main {
-    margin: 70px 0;
+    margin-bottom:  4.375rem;
 }
 
 main h2 {
     margin-left: 5%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .recom {
@@ -72,6 +73,10 @@ main h2 {
     justify-content: flex-end;
     text-decoration: none;
 }
+
+.recom :hover {
+    opacity: 50%;
+} 
 
 .recom__card__hawaii{
     background-position: center;
@@ -95,48 +100,5 @@ main h2 {
 
 .recom h2 {
     color: #fefaf5;
-    margin: 20px 20px;
-}
-
-/* footer */
-footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-    padding: 40px 8%;
-}
-
-footer h2 {
-    margin: 0;
-}
-
-footer h6 {
-    font-weight: 400;
-    color: #db7a4e;
-    margin-bottom: 0;
-}
-
-footer p {
-    color: #335576;
-    font-weight: 600;
-    font-size:small;
-}
-
-.footer__hour {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer__hour__sat {
-    margin: auto 30px;
-}
-
-.footer__social {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer__social img {
-    height: 30px;
-    margin: 40px 35px 0px 0px;
+    margin: 1.25rem;
 }
